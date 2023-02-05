@@ -1,0 +1,189 @@
+.group__mask {
+  background-image: url("../../img/laptop.jpg");
+  width: 541px;
+  height: 640px;
+  text-align: center;
+  border-radius: 15px;
+  position: relative;
+}
+.group__mask:hover .bek {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #e7816b;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+  z-index: 80;
+}
+
+.group__app:hover .bek {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #e7816b;
+  top: 0;
+  left: 0;
+  z-index: 80;
+  opacity: 0.6;
+}
+
+.group__app {
+  background-image: url(../../img/iphone.jpg);
+  width: 541px;
+  height: 308px;
+  text-align: center;
+  position: relative;
+}
+.group__graphic {
+  background-image: url(../../img/design.jpg);
+  width: 541px;
+  height: 308px;
+  text-align: center;
+  margin-top: 24px;
+  position: relative;
+}
+.group__graphic:hover .bek {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #e7816b;
+  top: 0;
+  left: 0;
+  z-index: 80;
+  opacity: 0.6;
+}
+.text__cards {
+  position: relative;
+  z-index: 100;
+}
+.group__wrapper {
+  margin-top: 160px;
+  display: flex;
+}
+.group {
+  margin-top: -30px;
+}
+.group__title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  padding-top: 273px;
+}
+.group__info {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.group__titless {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  padding-top: 107px;
+}
+.group__wrapper-up {
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .group__mask {
+    background-image: url("../../img/bek.jpg");
+    background-repeat: no-repeat;
+    width: 689px;
+    margin-left: 25px;
+  }
+  .group__title {
+    padding-top: 60px;
+  }
+  .group__info {
+    padding-top: 20px;
+  }
+  .group__titless {
+    padding-top: 60px;
+  }
+  .group__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .group__app {
+    background-image: url("../../img/asadbek.jpg");
+    background-repeat: no-repeat;
+    width: 689px;
+    margin-top: -420px;
+    margin-left: -5px;
+  }
+  .group__graphic {
+    background-image: url("../../img/wagon.jpg");
+    background-repeat: no-repeat;
+    width: 689px;
+    margin-left: -5px;
+    margin-top: -87px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .intro__group {
+    align-items: center;
+  }
+  .intro {
+    margin-top: -70px;
+  }
+  .intro__wrapper {
+    width: 100%;
+    margin-left: 0px;
+    border-radius: 0px;
+    padding-top: 50px;
+  }
+  .group__mask {
+    background-image: url("../../img/mobile.jpg");
+    width: 327px;
+    border-radius: 15px;
+  }
+
+  .group__app {
+    background-image: url("../../img/iphoneee.jpg");
+    width: 327px;
+    border-radius: 15px;
+    margin-top: -370px;
+  }
+  .group__graphic {
+    background-image: url("../../img/bitmappp.jpg");
+    width: 327px;
+    border-radius:15px;
+    margin-top: -38px;
+  }
+  .group__title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    color: #ffffff;
+  }
+  .group__info {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .group__titless {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    color: #ffffff;
+  }
+  .group__info {
+    padding-top: 10px;
+  }
+}

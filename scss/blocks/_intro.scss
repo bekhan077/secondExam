@@ -1,0 +1,117 @@
+.intro__wrapper {
+  background: #e7816b;
+  border-radius: 15px;
+  margin-top: 70px;
+  display: flex;
+  background-repeat: no-repeat;
+}
+
+.intro__group {
+  margin-left: 95px;
+  margin-top: 145px;
+  z-index: 5;
+}
+.intro__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  color: #ffffff;
+  width: 540px;
+}
+.intro__info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  width: 445px;
+  margin-top: 25px;
+  margin-bottom: 58px;
+}
+.intro__link {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333136;
+  padding: 18px 25px 16px 24px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.phone {
+  margin-top: 139px;
+  display: block;
+  margin-left: 40px;
+}
+.intro {
+  position: relative;
+}
+.intro__oval {
+  width: 640px;
+  height: 640px;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 2, 2, 0.0001) 0%,
+    rgba(93, 2, 2, 0.497569) 100%
+  );
+  mix-blend-mode: normal;
+  opacity: 0.31;
+  transform: matrix(0, -1, -1, 0, 0, 0);
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+  left: 560px;
+}
+@media screen and (max-width: 768px) {
+  .intro__wrapper {
+    width: 689px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25px;
+  }
+  .intro__title {
+    width: 573px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .intro__info {
+    text-align: center;
+    margin: 30px auto;
+    margin-bottom: 40px;
+  }
+  .intro__link {
+    margin-left: 210px;
+  }
+  .intro__group {
+    margin-left: 0;
+    margin-top: 50px;
+  }
+  .phone {
+    margin-right: 50px;
+    margin-top: 74px;
+  }
+  .intro {
+    position: relative;
+  }
+  .intro__oval {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 36px;
+    width: 327px;
+  }
+  .intro__info {
+    width: 327px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .intro__link {
+    margin-left: 90px;
+  }
+}
+
