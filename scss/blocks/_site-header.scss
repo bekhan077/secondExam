@@ -1,12 +1,20 @@
+.header {
+  position: fixed;
+  margin-left: 120px;
+  z-index: 10;
+}
 .header__nav {
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
   align-items: center;
 }
 .header__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.header__list-wrapper {
+  margin-left: auto;
 }
 .header__item {
   margin-right: 42px;
